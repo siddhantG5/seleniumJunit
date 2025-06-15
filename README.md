@@ -1,4 +1,4 @@
-# 🧪 TP n° 3 – Software Quality: JUnit with Selenium
+# 🧪 Software Quality: JUnit with Selenium
 
 <h1 align="center">
   🧼 Automated UI Testing on ToDoMVC using JUnit & Selenium
