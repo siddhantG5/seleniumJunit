@@ -1,20 +1,49 @@
-### TP n° 3 en Qualité Logicielle
-<h1 align=center >
-  JUnit with Selenium
+# 🧪 TP n° 3 – Software Quality: JUnit with Selenium
+
+<h1 align="center">
+  🧼 Automated UI Testing on ToDoMVC using JUnit & Selenium
 </h1>
 
-This project tests some of https://todomvc.com/ website features (adding and removing todos on different platforms) using Selenium as a test automation tool and JUnit as a unit testing framework.
+This project is developed as part of **Software Quality**.  
+It demonstrates how to perform UI automation testing on the [ToDoMVC](https://todomvc.com/) web application using **Selenium WebDriver** and **JUnit 5**.
 
-We will be testing the following scenario :
-- User chooses a platform
-- User adds some todos
-- User removes some todos
+---
 
-The code that runs this scenario will be the following :
-<p align="center" >
-  <img src="scenario.jpg" alt="Agile Development" >
+## 📌 Test Scenario
+
+This project automates the following test flow:
+
+- ✅ User chooses a frontend platform (e.g., AngularJS, Backbone.js)
+- ✅ User adds multiple todos
+- ✅ User removes some todos
+- ✅ Assertions are made to validate the UI state
+
+<p align="center">
+  <img src="scenario.jpg" alt="Test Scenario Diagram">
 </p>
 
-Tests reports will be generated using ***Surefire plugin***.
+---
 
-***Page Object Pattern*** is applied in this project to get a **cleaner code**.
+## ⚙️ Tech Stack
+
+| Component            | Usage                             |
+|----------------------|-----------------------------------|
+| **JUnit 5**          | Testing framework                 |
+| **Selenium WebDriver** | UI automation                   |
+| **WebDriverManager** | Driver management (Chrome, etc.)  |
+| **Maven Surefire**   | Test execution & report generation |
+| **Page Object Pattern** | Clean and maintainable code     |
+
+---
+
+## 🚀 Getting Started
+
+### ▶️ Prerequisites
+- Java 8+
+- Maven 3.6+
+- Chrome or compatible browser
+
+### ▶️ Run Tests
+
+```bash
+mvn test
